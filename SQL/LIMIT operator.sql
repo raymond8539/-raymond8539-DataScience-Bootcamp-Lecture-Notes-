@@ -2,3 +2,9 @@
 # example
 SELECT * 
 FROM salaries limit 10;
+#Assignment
+#Select the first 100 rows from the 'dept_emp' table.
+select *
+ from
+ employees
+ limit 100;

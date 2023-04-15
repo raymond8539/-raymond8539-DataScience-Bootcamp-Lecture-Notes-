@@ -22,7 +22,7 @@ FROM employees
 WHERE first_name
 LIKE('%ar%');
 #
-# Assignment: All individual whose name star with "mark"
+# Assignment: All individual whose name start with "mark"
 SELECT* 
 FROM employees
 WHERE first_name
@@ -35,7 +35,8 @@ WHERE hire_date
 LIKE('2000%')
 ORDER BY hire_date;
 #
-#Assignment3:
+#Assignment3:Retrieve a list with all employees whose employee number is written with 5 characters, and starts with "1000".
+
 SELECT* 
 FROM employees
 WHERE emp_no

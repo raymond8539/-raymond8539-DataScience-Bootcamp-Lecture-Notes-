@@ -13,3 +13,5 @@ SELECT *, COUNT(salary)
  WHERE (SELECT AVG(salary) >120000)
  GROUP BY ( emp_no)
  ORDER BY emp_no;
+  
+  

@@ -19,8 +19,7 @@ SELECT *
 FROM employees
 ORDER BY emp_no DESC;
 #
-# Assignment
-#Example. it also apply to number
+# Assignment:Select all data from the "employees" table, ordering it by "hire date" in descending order.
 SELECT *
 FROM employees
 ORDER BY hire_date DESC;

@@ -9,6 +9,11 @@ item_code VARCHAR(255),
 PRIMARY KEY(purchase_number),
 FOREIGN KEY(customer_id) REFERENCES cutomers(customer_id) ON DELETE CASCADE
 );
+# 
+#assignment:
+#Looking to the next few lectures of the course, drop all tables from the "Sales" database
+# in the following order: first drop "sales", then "customers", "items", and finally "companies".
+
 USE sales;
 DROP TABLE sales;
 DROP TABLE items;

@@ -4,7 +4,7 @@
 SELECT * FROM employees
 WHERE first_name = 'Denis';
 #
-# Assignment:
+# Assignment:Select all people from the "employees" table whose first name is "Elvis".
 SELECT * FROM employees
 WHERE first_name = 'Elvis';
 # 
@@ -13,7 +13,7 @@ WHERE first_name = 'Elvis';
 SELECT * FROM employees
 WHERE last_name = 'Denis' AND gender = 'M';
 #
-# Assignment:
+# Assignment:Retrieve a list with all female employees whose first name is Kellie.
 SELECT * 
 FROM employees 
 WHERE first_name = 'Kellie'
@@ -26,7 +26,7 @@ FROM employees
 WHERE last_name = 'Denis'
 AND (gender = 'M' OR gender = 'F');
 #
-# Assignment
+# Assignment:Retrieve a list with all female employees whose first name is either Kellie or Aruna.
 SELECT *
 FROM employees
 WHERE first_name = 'Kellie' 

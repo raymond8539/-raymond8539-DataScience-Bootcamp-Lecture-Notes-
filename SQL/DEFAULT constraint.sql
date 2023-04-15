@@ -5,7 +5,7 @@ CHANGE COLUMN number_of_complaints number_of_complaints INT DEFAULT 0;
 #to drop default values
 ALTER TABLE customers
 ALTER COLUMN  number_of_complaints DROP DEFAULT;
-# Assignment: Recreate companies table
+# Assignment: Recreate companies table. make head_quater_phone_number the unique key 
 DROP TABLE companies;
 CREATE TABLE companies 
 (

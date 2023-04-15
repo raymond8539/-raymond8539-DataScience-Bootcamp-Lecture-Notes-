@@ -13,7 +13,10 @@ WHERE salary
 BETWEEN '66000' AND '70000'
 ORDER BY salary;
 #
-# Assignment
+# Assignment:
+#Retrieve a list with all individuals whose employee number is not between "10004" and "10012".
+#Select the names of all departments with numbers between "d003" and "d006".
+
 SELECT* 
 FROM employees
 WHERE emp_no
